@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# RICK AND MORTY APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto de React cumple con 2 parámetros técnicos:
 
-## Available Scripts
+- Uso de Componentes
+- Lectura de webservices (puede ser online, JSON local, Firebase, etc)
 
-In the project directory, you can run:
+Consiste en una aplicación que consume una API para obtener información de los diferentes personajes de la serie Rick and Morty, muestra la imagen e información de cada personaje en tarjetas y permite navegar entre diferentes páginas para ver otros personajes.
 
-### `npm start`
+Para la estilización del proyecto se utilizó Bootstrap.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# REACT
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React es una biblioteca Javascript de código abierto que sirve para desarrollar aplicaciones web de una manera más ordenada y con menos código que si usamos Javascript puro o librerías como jQuery centradas en la manipulación del DOM. Permite que las vistas se asocien con los datos, de modo que si cambian los datos, también cambian las vistas.
 
-### `npm test`
+Create React App configura el ambiente de desarrollo de forma que podemos usar las últimas características de Javascript, brindando una buena experiencia de desarrollo, y optimizando nuestra aplicación para producción.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npx create-react-app my-app`
+`cd my-app`
+`npm start`
 
-### `npm run build`
+# BOOTSTRAP
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para agregar rápidamente Bootstrap a nuestro proyecto podemos descargar el paquete o simplemente utilizamos un CDN.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# ¿Por qué consumir APIs?
 
-### `npm run eject`
+Las APIs permiten que las aplicaciones se comuniquen y puedan aprovechar desarrollos ya construidos en lugar de tener que crearlos desde cero.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Documentación de React:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- https://es.reactjs.org/docs/getting-started.html
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Documentación de Bootstrap:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- https://getbootstrap.com/docs/5.1/getting-started/introduction/
